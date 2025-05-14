@@ -1,0 +1,10 @@
+Simulation Parameters:
+Time step (dt): 0.01
+Iterations (T): 100
+Damping factor: 0.85
+Particle count: 20
+
+Final Bounding Box:
+Width: 5.0652
+Height: 6.3658
+Area: 32.2442
