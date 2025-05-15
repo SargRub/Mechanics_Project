@@ -95,7 +95,7 @@ public class PackingSimulationExtended extends JPanel {
         try (BufferedWriter paramsLog = new BufferedWriter(new FileWriter(logPrefix + "_params.txt"));
              BufferedWriter energyLog = new BufferedWriter(new FileWriter(logPrefix + "_energy.csv"));
              BufferedWriter boundsLog = new BufferedWriter(new FileWriter(logPrefix + "_bounds.csv"))) {
-
+       
             // Log parameters
             paramsLog.write(String.format(
                 "Configuration: %s\n" +
